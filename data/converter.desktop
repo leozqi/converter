@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Converter
+GenericName=Converter App
+Comment=Convert different files easily
+Categories=Utility;
+Exec=com.github.leozqi.converter
+Icon=com.github.leozqi.converter
+Terminal=false
+Type=Application
+Keywords=Convert;Converter;

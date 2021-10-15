@@ -1,0 +1,18 @@
+[
+    {
+        "from": "application/pdf",
+        "to": "image/jpeg",
+        "check": "which pdfimages",
+        "commands": [
+            "pdfimages <FIRSTPAGE> <LASTPAGE> \"<IN>\" \"<OUT>/<PREFIX>\""
+        ]
+    },
+	{
+		"from": "audio/mpeg",
+		"to": "audio/opus",
+		"check": "ffmpeg",
+		"commands": [
+			"ffmpeg -i \"<IN>\" -c:a libopus \"<OUT>/<PREFIX>.opus\""
+		]
+	}
+]

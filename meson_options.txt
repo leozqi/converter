@@ -1,0 +1,1 @@
+option('configdir', type : 'string', value : '/home/leoqi/.config')

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021 Leo Qi <leozhaoqi@gmail.com> -->
+<component type="desktop">
+  <id>com.github.leozqi.converter</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Converter</name>
+  <summary>Convert different files easily</summary>
+  <description>
+    <p>Convert PDFs to images</p>
+  </description>
+</component>
